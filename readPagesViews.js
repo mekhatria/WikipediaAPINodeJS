@@ -3,7 +3,7 @@ var rp= require('request-promise');
 
 var options={
   
-    methode: 'GET',    
+    method: 'GET',    
     uri:'https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Africa/daily/2017042700/2018051700',
     json:true    
 };
